@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	font-family: Calibri;
+}
+
+body {
+	background-color: #E0F8F1;
+}
+
+.game-name {
+	height: 65px;
+	background-color: #FFFF99;
+	font-size: 24px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 10px;
+}
+
+.categories {
+	text-align: center;	
+}
+
+form-questions {
+	margin-top: 0px;
+}
+
+button {
+	margin-top: 5px;
+	background-color: lightgrey;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 5px 19px 5px 19px;
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 17px;
+	width: 19%;
+}
+
+label {
+	display: inline-block;
+	width: 1200px;
+}
+
+input {
+	width: 150px;
+}
+
+form {
+	margin: auto;
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+	width: 95%;
+}
+
+.quiz-title {
+	padding-top: 10px;
+}
+
+.quiz-questions {
+	padding-top: 10px;
+}
+
+.submit-button {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#result-button {
+	background-color: #FFBBEDFF;
+	width: 150px;
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid black;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+p {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+}
+
+.results-table {
+	margin: 0px;
+	text-align: center;
+}
+
+.results-table td {
+	padding: 0px 30px 0px 30px;
+	font-size: 15px;
+	max-width: 25%;
+}
+
+.form-base {
+background-color: #E0F8F1;
+padding: 30px;
+}
+
+.restart-button {
+	font-weight: bold;
+	text-decoration: underline;
+	border: none;
+	background-color: #E0F8F1;
+}

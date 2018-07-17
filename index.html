@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=’pt-BR’>
+    <head>
+		<meta charset="utf-8">
+		<title>Trivia</title>
+		<link rel="stylesheet" href="app.css">
+	</head>
+	<body>
+<!-- Nome do jogo -->
+		<section class="game-name">
+			<div class="game-name-trivia">
+				<h1>TRIVIA</h1>
+			</div>
+		</section>
+<!-- Categorias -->
+		<section class="categories">
+			<div>
+				<button>Categorias</button>
+				<button>Categoria 1</button>
+				<button>Categoria 1</button>
+				<button>Categoria 1</button>
+				<button>Categoria 1</button>
+			</div>
+			<nav>
+		</section>
+<!-- Formulário para nome e perguntas-->
+		<section class="form-base">
+			<div class="form-questions">
+				<form>
+					<div class="name-question">
+						<label for="name" class="nome"><b>Nome:</b></label>
+						<input type="text" id="user" placeholder="Insira seu nome"/>
+					</div>
+					<div class="quiz-title">
+						<label class="perguntas"><b>Perguntas:</b></label>
+					</div>
+					<div class="quiz-questions">
+						<div>
+							<label>1. HTML é considerada uma linguagem de programação? </label>
+							<input type="text" id="quest-1" placeholder="Responda 'sim' ou 'não'"/>
+						</div>	
+						<div>
+							<label>2. O significado de CSS é Cascading Style Script? </label>
+							<input type="text" id="quest-2" placeholder="Responda 'sim' ou 'não'"/>
+						</div>	
+						<div>
+							<label>3. Em Javascript, existe diferença entre null e undefined? </label>
+							<input type="text" id="quest-3" placeholder="Responda 'sim' ou 'não'"/>
+						</div>	
+					</div>
+					<div class="submit-button">
+						<button type="submit" id="result-button" onclick="startGame(); return false;">Veja o seu resultado!</button>	
+					</div>
+				</form>
+			</div>
+		</section>
+		<div class="bem-vinda">
+			<p id="username"></p>
+		</div>	
+<!-- Resultados -->
+		<section>
+			<div class="results">
+				<table class="results-table">
+					<tr>
+						<td class="right-simbol"></td>
+						<td class="wrong-simbol"></td>
+					</tr>
+					<tr>
+						<td class="right1"></td>
+						<td class="wrong1"></td>
+					</tr>
+					<tr>
+						<td class="right2"></td>
+						<td class="wrong2"></td>
+					</tr>
+					<tr>
+						<td class="right3"></td>
+						<td class="wrong3"></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+<!-- Botão para iniciar uma nova partida -->
+		<section class="restart-game">
+			<div>
+				<button class="restart-button" onclick="restart()" ></button>	
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
+
